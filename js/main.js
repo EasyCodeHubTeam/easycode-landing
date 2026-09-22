@@ -161,7 +161,8 @@ function initCtaBackground() {
     observer.disconnect();
     const img = new Image();
     img.onload = () => {
-      section.style.setProperty('--cta-bg', `url("${src}")`);
+      // Абсолютный адрес: относительный url() в CSS-переменной считался бы от css/style.css
+      section.style.setProperty('--cta-bg', `url("${img.src}")`);
       section.classList.add('has-bg');
     };
     img.src = src;

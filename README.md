@@ -223,11 +223,11 @@ node scripts/i18n.mjs --fix  # переписать русский текст в
 | Слот | Файл | Размер, px | Пропорции | Где |
 |---|---|---|---|---|
 | Главная иллюстрация | `assets/img/hero.webp` | 1200×1200 | 1:1 | Первый экран |
-| Услуга: мобильные | `assets/img/services/mobile.webp` | 600×450 | 4:3 | Карточка услуги |
-| Услуга: backend | `assets/img/services/backend.webp` | 600×450 | 4:3 | Карточка услуги |
-| Услуга: боты | `assets/img/services/bots.webp` | 600×450 | 4:3 | Карточка услуги |
-| Услуга: MVP | `assets/img/services/mvp.webp` | 600×450 | 4:3 | Карточка услуги |
-| Услуга: поддержка | `assets/img/services/support.webp` | 600×450 | 4:3 | Карточка услуги |
+| Услуга: мобильные | `assets/img/services/mobile.webp` | 800×600 | 4:3 | Карточка услуги |
+| Услуга: backend | `assets/img/services/backend.webp` | 800×600 | 4:3 | Карточка услуги |
+| Услуга: боты | `assets/img/services/bots.webp` | 800×600 | 4:3 | Карточка услуги |
+| Услуга: MVP | `assets/img/services/mvp.webp` | 800×600 | 4:3 | Карточка услуги |
+| Услуга: поддержка | `assets/img/services/support.webp` | 800×600 | 4:3 | Карточка услуги |
 | Почему мы / команда | `assets/img/about.webp` | 1200×800 | 3:2 | Секция «Почему мы» |
 | Превью проектов | `assets/img/projects/<id>.webp` | 1200×750 | 16:10 | Портфолио (путь в `projects.json`) |
 | Фон заявки (по желанию) | `assets/img/cta-bg.webp` | 1920×800 | 12:5 | Секция с формой |
@@ -239,6 +239,7 @@ node scripts/i18n.mjs --fix  # переписать русский текст в
 - **Сжатие в WebP.** ChatGPT отдаёт PNG на несколько мегабайт. Откройте [squoosh.app](https://squoosh.app),
   перетащите файл → справа выберите **WebP**, качество 75–82 → **Resize** до размера из таблицы
   → Download. Цель: hero и about — до 150–200 КБ, карточки услуг — до 60–80 КБ.
+  Исходники текущих картинок (PNG от ChatGPT) лежат вне репозитория: `../easycode-images-original/`.
 - `og-image.png` оставьте в PNG или JPG: не все мессенджеры понимают WebP в превью.
 - Фон заявки лучше делать тёмным и «спокойным» — поверх него текст и форма; сайт дополнительно
   затемняет картинку.

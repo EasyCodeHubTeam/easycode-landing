@@ -880,6 +880,12 @@ body.menu-open { overflow: hidden; }
     radial-gradient(ellipse 60% 80% at 0% 0%, var(--accent-soft), transparent 60%),
     var(--cta-bg, none) center / cover no-repeat;
 }
+/* Фоновая картинка тёмная — в светлой теме её не показываем */
+:root[data-theme='light'] .contact::before {
+  background: radial-gradient(ellipse 60% 80% at 0% 0%, var(--accent-soft), transparent 60%);
+}
+:root[data-theme='light'] .contact.has-bg::after { display: none; }
+
 /* Затемнение поверх фоновой картинки, чтобы текст читался */
 .contact.has-bg::after {
   content: '';
