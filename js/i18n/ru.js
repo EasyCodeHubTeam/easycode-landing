@@ -36,7 +36,6 @@ export default {
   },
 
   hero: {
-    eyebrow: 'Студия разработки из Казахстана',
     titleBefore: 'Превращаем идеи в ',
     titleAccent: 'работающие приложения',
     titleAfter: '',

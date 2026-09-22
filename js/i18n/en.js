@@ -33,7 +33,6 @@ export default {
   },
 
   hero: {
-    eyebrow: 'Development studio from Kazakhstan',
     titleBefore: 'We turn ideas into ',
     titleAccent: 'working apps',
     titleAfter: '',

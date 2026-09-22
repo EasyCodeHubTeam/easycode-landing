@@ -34,7 +34,6 @@ export default {
   },
 
   hero: {
-    eyebrow: 'Қазақстандық әзірлеу студиясы',
     titleBefore: 'Идеяларды ',
     titleAccent: 'жұмыс істейтін қосымшаларға',
     titleAfter: ' айналдырамыз',
