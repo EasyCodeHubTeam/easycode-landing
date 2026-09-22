@@ -149,7 +149,7 @@ export default {
     },
     s6: {
       title: 'Development in sprints',
-      text: 'We track tasks in Jira and work in 1–2 week sprints. After each sprint you get a demo — a working result, not a report.',
+      text: 'We track tasks in Jira and work in 1–2 week sprints. After each sprint you get a demo — a working result, not just task statuses.',
     },
     s7: {
       title: 'Testing',
@@ -180,7 +180,7 @@ export default {
   why: {
     eyebrow: 'Why us',
     title: 'Why working with us is easy',
-    lead: 'We are a small team of freelance developers working with Flutter and Python. You talk directly to the people who write the code — no managers, no agency markup.',
+    lead: 'We are a small team of freelance developers working with Flutter and Python. No office, no sales team, no agency markup — you pay only for the development.',
     imgAlt: 'Illustration: the EasyCode team at work',
     w1: {
       title: 'Direct communication',
