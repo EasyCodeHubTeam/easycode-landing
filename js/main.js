@@ -8,15 +8,23 @@ const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').match
 const DESKTOP_NAV = window.matchMedia('(min-width: 1140px)');
 
 /* ---------- Ссылки из config.js ---------- */
-function initLinks() {
-  const botHref = SITE.botUrl ? `${SITE.botUrl}?start=${encodeURIComponent(SITE.botStart)}` : '';
+// ?start=site_kk — бот запомнит, что клиент с сайта, и сразу ответит на языке сайта
+const botHref = (lang) =>
+  SITE.botUrl ? `${SITE.botUrl}?start=${encodeURIComponent(`${SITE.botStart}_${lang}`)}` : '';
 
+function setBotLinks(lang) {
+  const href = botHref(lang);
   document.querySelectorAll('[data-link="bot"]').forEach((a) => {
-    if (!botHref) return; // без ссылки на бота кнопки ведут к форме (#contact)
-    a.href = botHref;
+    if (!href) return; // без ссылки на бота кнопки ведут к форме (#contact)
+    a.href = href;
     a.target = '_blank';
     a.rel = 'noopener';
   });
+}
+
+function initLinks() {
+  setBotLinks(detectLang());
+  document.addEventListener('langchange', (e) => setBotLinks(e.detail.lang));
 
   document.querySelectorAll('[data-link="email"]').forEach((a) => {
     if (!SITE.email) { (a.closest('li') || a).remove(); return; }

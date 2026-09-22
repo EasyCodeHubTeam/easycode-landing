@@ -2,7 +2,8 @@
 
 export const SITE = {
   botUrl: 'https://t.me/easycode_hub_bot',
-  // Параметр ?start=... — по нему в боте видно, что клиент пришёл с сайта
+  // Параметр ?start=... — по нему в боте видно, что клиент пришёл с сайта.
+  // К нему добавляется язык сайта: site_ru, site_kk, site_en — бот сразу отвечает на этом языке.
   botStart: 'site',
   // [TODO: проверить email]
   email: 'easycodehub@gmail.com',
