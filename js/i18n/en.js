@@ -140,8 +140,8 @@ export default {
       text: 'We write a technical specification, split the project into milestones and give you an exact price and timeline.',
     },
     s4: {
-      title: 'Contract and prepayment',
-      text: 'We put the terms in a contract. Prepayment is 30%, the rest is paid per milestone.',
+      title: 'Terms and prepayment',
+      text: 'We agree on scope, timeline and price in writing before work starts. Prepayment is 30%, the rest is paid per milestone.',
     },
     s5: {
       title: 'Design',
@@ -180,11 +180,11 @@ export default {
   why: {
     eyebrow: 'Why us',
     title: 'Why working with us is easy',
-    lead: 'We are a small team, and that’s a plus: you talk directly to the developers, with no middle managers.',
+    lead: 'We are a small team of freelance developers working with Flutter and Python. You talk directly to the people who write the code — no managers, no agency markup.',
     imgAlt: 'Illustration: the EasyCode team at work',
     w1: {
       title: 'Direct communication',
-      text: 'You talk to the people who write the code. Questions get answered in minutes, not through a chain of forwards.',
+      text: 'You talk to the people who write the code. Questions get answered directly, not through a chain of forwards.',
     },
     w2: {
       title: 'One team, the whole product',
@@ -204,17 +204,17 @@ export default {
     eyebrow: 'FAQ',
     title: 'Frequently asked questions',
     q1: 'How much does development cost?',
-    a1: 'It depends on scope: the number of screens, integrations and backend complexity. Estimates are free: after the brief we give you an exact price and fix it in the contract.',
+    a1: 'It depends on scope: the number of screens, integrations and backend complexity. Estimates are free: after the brief we give you an exact price and confirm it in writing before work starts.',
     q2: 'How long will the project take?',
     a2: 'A Telegram bot takes from 1 week, an MVP from 4 weeks, a full mobile app from 6 weeks. You get a detailed milestone plan together with the estimate.',
     q3: 'What do you need from me to start?',
     a3: 'A description of your idea or task — informal is fine. Examples of apps you like help a lot. We’ll work out the structure, spec and design together.',
     q4: 'Who owns the code?',
-    a4: 'You do. You receive the source code, repository access, App Store and Google Play accounts and server access. This is stated in the contract.',
+    a4: 'You do. Once paid, you receive the source code, repository access, App Store and Google Play accounts and server access.',
     q5: 'Do you offer support after launch?',
     a5: 'Yes. 4 weeks of free warranty support: we fix any bugs that turn up. After that we can keep developing the project as agreed — monthly or per task.',
     q6: 'How does payment work?',
-    a6: 'Under the contract: 30% prepayment, the rest per milestone after you accept the result. You never pay for work you haven’t seen.',
+    a6: '30% prepayment, the rest per milestone after you accept the result. You never pay for work you haven’t seen.',
   },
 
   contact: {
