@@ -180,15 +180,15 @@ export default {
   why: {
     eyebrow: 'Why us',
     title: 'Why working with us is easy',
-    lead: 'We are a small team of freelance developers working with Flutter and Python. No office, no sales team, no agency markup — you pay only for the development.',
-    imgAlt: 'Illustration: the EasyCode team at work',
+    lead: 'We work freelance, with Flutter and Python. No office, no sales team, no agency markup — you pay only for the development.',
+    imgAlt: 'Illustration: a workspace with laptops and a task board',
     w1: {
       title: 'Direct communication',
       text: 'You talk to the people who write the code. Questions get answered directly, not through a chain of forwards.',
     },
     w2: {
-      title: 'One team, the whole product',
-      text: 'The mobile app, backend and bot are built by one team. No need to coordinate several contractors.',
+      title: 'One contractor, the whole product',
+      text: 'The mobile app, backend and bot come from one contractor. No need to coordinate several.',
     },
     w3: {
       title: 'Honest estimates',
