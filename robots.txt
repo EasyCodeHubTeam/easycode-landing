@@ -2,5 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-# [TODO: домен]
-Sitemap: https://easycode.kz/sitemap.xml
+# Для своего домена замените адрес ниже
+Sitemap: https://easycodehubteam.github.io/easycode-landing/sitemap.xml

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- [TODO: домен] замените https://easycode.kz на свой -->
+<!-- При подключении своего домена замените адрес во всех строках -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://easycode.kz/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://easycode.kz/"/>
-    <xhtml:link rel="alternate" hreflang="kk" href="https://easycode.kz/?lang=kk"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://easycode.kz/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://easycode.kz/"/>
+    <loc>https://easycodehubteam.github.io/easycode-landing/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://easycodehubteam.github.io/easycode-landing/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://easycodehubteam.github.io/easycode-landing/?lang=kk"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://easycodehubteam.github.io/easycode-landing/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://easycodehubteam.github.io/easycode-landing/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://easycode.kz/?lang=kk</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://easycode.kz/"/>
-    <xhtml:link rel="alternate" hreflang="kk" href="https://easycode.kz/?lang=kk"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://easycode.kz/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://easycode.kz/"/>
+    <loc>https://easycodehubteam.github.io/easycode-landing/?lang=kk</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://easycodehubteam.github.io/easycode-landing/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://easycodehubteam.github.io/easycode-landing/?lang=kk"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://easycodehubteam.github.io/easycode-landing/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://easycodehubteam.github.io/easycode-landing/"/>
   </url>
   <url>
-    <loc>https://easycode.kz/?lang=en</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://easycode.kz/"/>
-    <xhtml:link rel="alternate" hreflang="kk" href="https://easycode.kz/?lang=kk"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://easycode.kz/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://easycode.kz/"/>
+    <loc>https://easycodehubteam.github.io/easycode-landing/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://easycodehubteam.github.io/easycode-landing/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://easycodehubteam.github.io/easycode-landing/?lang=kk"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://easycodehubteam.github.io/easycode-landing/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://easycodehubteam.github.io/easycode-landing/"/>
   </url>
 </urlset>

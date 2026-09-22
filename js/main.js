@@ -44,6 +44,20 @@ function initLinks() {
   document.querySelectorAll('[data-year]').forEach((node) => { node.textContent = new Date().getFullYear(); });
 }
 
+/* ---------- Форма заявки: включается, только если задан бэкенд ---------- */
+function initLeadMode() {
+  const form = document.querySelector('[data-lead-form]');
+  if (!SITE.leadEndpoint || !form) return;
+  form.action = SITE.leadEndpoint;
+  form.hidden = false;
+  document.querySelector('#contact')?.classList.remove('contact--no-form');
+  // Тексты, которые в режиме формы говорят о заявке через сайт
+  document.querySelectorAll('[data-i18n-form]').forEach((el) => {
+    el.dataset.i18n = el.dataset.i18nForm;
+    el.textContent = t(el.dataset.i18n);
+  });
+}
+
 /* ---------- Тема ---------- */
 function initTheme() {
   const toggle = document.querySelector('[data-theme-toggle]');
@@ -170,6 +184,7 @@ async function initLang() {
 
 /* ---------- Старт ---------- */
 initLinks();
+initLeadMode();
 initTheme();
 initMenu();
 initHeader();

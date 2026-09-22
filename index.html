@@ -8,19 +8,19 @@
   <meta name="theme-color" content="#0b0d10">
   <meta name="color-scheme" content="dark light">
 
-  <!-- [TODO: домен] Замените https://easycode.kz на свой домен здесь, в robots.txt, sitemap.xml и js/config.js -->
-  <link rel="canonical" href="https://easycode.kz/">
-  <link rel="alternate" hreflang="ru" href="https://easycode.kz/">
-  <link rel="alternate" hreflang="kk" href="https://easycode.kz/?lang=kk">
-  <link rel="alternate" hreflang="en" href="https://easycode.kz/?lang=en">
-  <link rel="alternate" hreflang="x-default" href="https://easycode.kz/">
+  <!-- Адрес сайта. При подключении своего домена замените его здесь, в robots.txt и sitemap.xml -->
+  <link rel="canonical" href="https://easycodehubteam.github.io/easycode-landing/">
+  <link rel="alternate" hreflang="ru" href="https://easycodehubteam.github.io/easycode-landing/">
+  <link rel="alternate" hreflang="kk" href="https://easycodehubteam.github.io/easycode-landing/?lang=kk">
+  <link rel="alternate" hreflang="en" href="https://easycodehubteam.github.io/easycode-landing/?lang=en">
+  <link rel="alternate" hreflang="x-default" href="https://easycodehubteam.github.io/easycode-landing/">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="EasyCode">
-  <meta property="og:url" content="https://easycode.kz/">
+  <meta property="og:url" content="https://easycodehubteam.github.io/easycode-landing/">
   <meta property="og:title" content="EasyCode — мобильные приложения и backend под ключ">
   <meta property="og:description" content="Разрабатываем приложения на Flutter для iOS и Android, backend на FastAPI и Telegram-ботов. Спринты, демо, оплата по этапам, код остаётся у вас.">
-  <meta property="og:image" content="https://easycode.kz/assets/img/og-image.png">
+  <meta property="og:image" content="https://easycodehubteam.github.io/easycode-landing/assets/img/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:locale" content="ru_RU">
@@ -29,7 +29,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="EasyCode — мобильные приложения и backend под ключ">
   <meta name="twitter:description" content="Разрабатываем приложения на Flutter для iOS и Android, backend на FastAPI и Telegram-ботов. Спринты, демо, оплата по этапам, код остаётся у вас.">
-  <meta name="twitter:image" content="https://easycode.kz/assets/img/og-image.png">
+  <meta name="twitter:image" content="https://easycodehubteam.github.io/easycode-landing/assets/img/og-image.png">
 
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -66,8 +66,8 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "EasyCode",
-    "url": "https://easycode.kz/",
-    "logo": "https://easycode.kz/assets/img/logo.png",
+    "url": "https://easycodehubteam.github.io/easycode-landing/",
+    "logo": "https://easycodehubteam.github.io/easycode-landing/assets/img/logo.png",
     "email": "easycodehub@gmail.com",
     "description": "Студия разработки мобильных приложений на Flutter, backend на FastAPI и Telegram-ботов.",
     "areaServed": "KZ",
@@ -345,7 +345,7 @@
         </header>
 
         <ol class="timeline">
-          <li class="step reveal"><span class="step__num" aria-hidden="true">01</span><div class="step__body"><h3 class="step__title" data-i18n="process.s1.title">Заявка</h3><p class="step__text" data-i18n="process.s1.text">Пишете в наш Telegram-бот, в личные сообщения или оставляете заявку через форму на сайте.</p></div></li>
+          <li class="step reveal"><span class="step__num" aria-hidden="true">01</span><div class="step__body"><h3 class="step__title" data-i18n="process.s1.title">Заявка</h3><p class="step__text" data-i18n="process.s1.text" data-i18n-form="process.s1.textForm">Пишете в наш Telegram-бот или в личные сообщения.</p></div></li>
           <li class="step reveal"><span class="step__num" aria-hidden="true">02</span><div class="step__body"><h3 class="step__title" data-i18n="process.s2.title">Бриф и созвон</h3><p class="step__text" data-i18n="process.s2.text">Созваниваемся и выясняем задачу, цели, сроки и бюджет. Если идея ещё сырая — поможем её сформулировать.</p></div></li>
           <li class="step reveal"><span class="step__num" aria-hidden="true">03</span><div class="step__body"><h3 class="step__title" data-i18n="process.s3.title">Оценка и ТЗ</h3><p class="step__text" data-i18n="process.s3.text">Составляем техническое задание, разбиваем проект на этапы и называем точную стоимость и сроки.</p></div></li>
           <li class="step reveal"><span class="step__num" aria-hidden="true">04</span><div class="step__body"><h3 class="step__title" data-i18n="process.s4.title">Договор и предоплата</h3><p class="step__text" data-i18n="process.s4.text">Фиксируем условия в договоре. Предоплата — [TODO: 30–50]%, остальное — по этапам.</p></div></li>
@@ -438,16 +438,16 @@
 
     <!-- ============ Заявка ============ -->
     <!-- Фон (опционально): assets/img/cta-bg.webp · 1920×800 — подключается автоматически, если файл есть -->
-    <section class="section contact" id="contact" aria-labelledby="contact-title" data-cta-bg>
+    <section class="section contact contact--no-form" id="contact" aria-labelledby="contact-title" data-cta-bg>
       <div class="container contact__grid">
         <div class="contact__intro reveal">
           <p class="eyebrow" data-i18n="contact.eyebrow">Заявка</p>
           <h2 class="section__title" id="contact-title" data-i18n="contact.title">Расскажите о проекте</h2>
-          <p class="section__lead" data-i18n="contact.lead">Оставьте заявку — свяжемся, уточним детали и предложим план с оценкой. Это ни к чему не обязывает.</p>
+          <p class="section__lead" data-i18n="contact.lead" data-i18n-form="contact.leadForm">Напишите нам в Telegram — уточним детали и предложим план с оценкой. Это ни к чему не обязывает.</p>
 
           <div class="contact__alt">
-            <p class="contact__alt-title" data-i18n="contact.altTitle">Удобнее в мессенджере?</p>
-            <p class="contact__alt-text" data-i18n="contact.altText">Напишите нашему Telegram-боту — ответим там же.</p>
+            <p class="contact__alt-title" data-i18n="contact.botTitle" data-i18n-form="contact.altTitle">Самый быстрый способ — Telegram</p>
+            <p class="contact__alt-text" data-i18n="contact.botText" data-i18n-form="contact.altText">Коротко опишите задачу нашему боту — ответим там же.</p>
             <a class="btn btn--primary" href="#contact" data-link="bot">
               <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#t-telegram"></use></svg>
               <span data-i18n="cta.discuss">Обсудить проект</span>
@@ -459,7 +459,8 @@
           </div>
         </div>
 
-        <form class="card form reveal" action="/api/lead" method="post" novalidate data-lead-form>
+        <!-- Форма скрыта, пока в js/config.js не задан leadEndpoint (адрес бэкенда заявок) -->
+        <form class="card form reveal" action="#" method="post" novalidate data-lead-form hidden>
           <div class="field">
             <label class="field__label" for="f-name" data-i18n="form.name">Как вас зовут</label>
             <input class="field__input" id="f-name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="80"

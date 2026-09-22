@@ -919,6 +919,20 @@ body.menu-open { overflow: hidden; }
 }
 .contact__email:hover { color: var(--text); }
 
+/* Режим без формы: блок заявки по центру, главный путь — Telegram */
+.contact--no-form .contact__grid {
+  grid-template-columns: 1fr;
+  max-width: calc(760px + var(--gutter) * 2);
+  text-align: center;
+}
+.contact--no-form .contact__intro { position: static; }
+.contact--no-form .section__lead { margin-inline: auto; }
+.contact--no-form .contact__alt {
+  align-items: center;
+  padding: var(--space-6) var(--space-5);
+}
+.contact--no-form .contact__alt .btn { min-height: 52px; padding-inline: 1.75rem; font-size: 1rem; }
+
 .form {
   display: grid;
   gap: var(--space-4);

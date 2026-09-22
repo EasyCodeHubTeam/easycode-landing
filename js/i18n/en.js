@@ -129,7 +129,8 @@ export default {
     lead: 'A clear path from the first message to launch. At every stage you know what is happening and what it costs.',
     s1: {
       title: 'Request',
-      text: 'Message our Telegram bot, write to us directly or leave a request using the form on this site.',
+      text: 'Message our Telegram bot or write to us directly.',
+      textForm: 'Message our Telegram bot, write to us directly or leave a request using the form on this site.',
     },
     s2: {
       title: 'Brief and call',
@@ -220,7 +221,10 @@ export default {
   contact: {
     eyebrow: 'Request',
     title: 'Tell us about your project',
-    lead: 'Leave a request — we’ll get in touch, clarify the details and propose a plan with an estimate. No obligation.',
+    lead: 'Message us on Telegram — we’ll clarify the details and propose a plan with an estimate. No obligation.',
+    leadForm: 'Leave a request — we’ll get in touch, clarify the details and propose a plan with an estimate. No obligation.',
+    botTitle: 'The fastest way is Telegram',
+    botText: 'Briefly describe your task to our bot — we’ll reply right there.',
     altTitle: 'Prefer a messenger?',
     altText: 'Message our Telegram bot — we’ll reply right there.',
     email: 'Email',

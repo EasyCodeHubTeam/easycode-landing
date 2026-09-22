@@ -1,5 +1,5 @@
 // Vercel Serverless Function: заявка с сайта → сообщение в Telegram.
-// Переменные окружения: BOT_TOKEN, CHAT_ID (обязательно), TURNSTILE_SECRET (по желанию).
+// Переменные окружения: BOT_TOKEN, CHAT_ID (обязательно), TURNSTILE_SECRET и ALLOWED_ORIGINS (по желанию).
 // Токен живёт только здесь, на сервере, и никогда не попадает в браузер.
 
 const TYPES = {
@@ -72,8 +72,24 @@ async function verifyTurnstile(token, ip) {
   return data.success === true;
 }
 
+// Если сайт живёт на другом домене (например, GitHub Pages), перечислите его в ALLOWED_ORIGINS:
+// ALLOWED_ORIGINS=https://easycodehubteam.github.io,https://easycode.kz
+function applyCors(req, res) {
+  const origin = req.headers.origin;
+  const allowed = (process.env.ALLOWED_ORIGINS || '').split(',').map((s) => s.trim()).filter(Boolean);
+  if (origin && allowed.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+    res.setHeader('Vary', 'Origin');
+    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    res.setHeader('Access-Control-Max-Age', '86400');
+  }
+}
+
 module.exports = async function handler(req, res) {
   res.setHeader('Cache-Control', 'no-store');
+  applyCors(req, res);
+  if (req.method === 'OPTIONS') return res.status(204).end();
 
   if (req.method !== 'POST') {
     res.setHeader('Allow', 'POST');

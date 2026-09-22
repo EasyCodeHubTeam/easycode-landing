@@ -7,6 +7,11 @@ export const SITE = {
   botStart: 'site',
   // [TODO: проверить email]
   email: 'easycodehub@gmail.com',
+  // Адрес бэкенда, который принимает заявки с формы и пересылает их в Telegram
+  // (Vercel-функция api/lead.js, Cloudflare Worker и т. п.).
+  // Пока пусто — форма скрыта, а блок «Заявка» ведёт в Telegram-бота.
+  // Пример: 'https://easycode-lead.vercel.app/api/lead'
+  leadEndpoint: '',
 };
 
 // Соцсети появятся в футере, как только заполните url.
