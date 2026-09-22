@@ -165,7 +165,7 @@ export default {
     },
     b1: {
       title: 'Transparent',
-      text: 'Access to the Jira board and a demo after every sprint. You always know where the project stands.',
+      text: 'After every sprint — a demo and a short summary on Telegram: what’s done and what’s next. You always know where the project stands.',
     },
     b2: {
       title: 'Pay per milestone',
