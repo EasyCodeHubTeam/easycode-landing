@@ -1,8 +1,7 @@
 // Контакты и ссылки — в одном месте. Всё, что здесь пусто, на сайте не показывается.
 
 export const SITE = {
-  // [TODO: ссылка на Telegram-бота] например https://t.me/easycode_bot
-  botUrl: 'https://t.me/TODO_bot',
+  botUrl: 'https://t.me/easycode_hub_bot',
   // Параметр ?start=... — по нему в боте видно, что клиент пришёл с сайта
   botStart: 'site',
   // [TODO: проверить email]
