@@ -20,6 +20,6 @@ export const SITE = {
 // icon — id символа из assets/icons/sprite.svg (t-github, t-telegram, t-instagram).
 export const SOCIALS = [
   { label: 'GitHub', url: '', icon: 't-github' },     // [TODO: GitHub]
-  { label: 'Telegram', url: '', icon: 't-telegram' }, // [TODO: Telegram-канал или личка]
+  { label: 'Telegram @easycode_hub', url: 'https://t.me/easycode_hub', icon: 't-telegram' }, // личка для прямой связи
   { label: 'Instagram', url: '', icon: 't-instagram' }, // [TODO: Instagram]
 ];
