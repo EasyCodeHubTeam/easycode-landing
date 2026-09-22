@@ -1,0 +1,30 @@
+[
+  {
+    "id": "example",
+    "draft": true,
+    "type": "mobile",
+    "image": "assets/img/projects/example.webp",
+    "title": {
+      "ru": "Пример: приложение для записи в салон",
+      "kk": "Мысал: салонға жазылу қосымшасы",
+      "en": "Example: salon booking app"
+    },
+    "description": {
+      "ru": "Шаблон карточки. Замените на реальный проект: какая была задача и для кого.",
+      "kk": "Карточка үлгісі. Нақты жобамен ауыстырыңыз: қандай міндет болды және кім үшін.",
+      "en": "Card template. Replace it with a real project: what the task was and who it was for."
+    },
+    "result": {
+      "ru": "Что получилось: цифры, сроки, отзыв клиента.",
+      "kk": "Не шықты: сандар, мерзімдер, клиент пікірі.",
+      "en": "What came out of it: numbers, timelines, client feedback."
+    },
+    "stack": ["Flutter", "FastAPI", "PostgreSQL"],
+    "links": {
+      "appstore": "",
+      "googleplay": "",
+      "github": "",
+      "demo": ""
+    }
+  }
+]

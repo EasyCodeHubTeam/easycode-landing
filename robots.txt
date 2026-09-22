@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# [TODO: домен]
+Sitemap: https://easycode.kz/sitemap.xml

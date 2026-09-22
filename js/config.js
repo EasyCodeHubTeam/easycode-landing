@@ -1,0 +1,18 @@
+// Контакты и ссылки — в одном месте. Всё, что здесь пусто, на сайте не показывается.
+
+export const SITE = {
+  // [TODO: ссылка на Telegram-бота] например https://t.me/easycode_bot
+  botUrl: 'https://t.me/TODO_bot',
+  // Параметр ?start=... — по нему в боте видно, что клиент пришёл с сайта
+  botStart: 'site',
+  // [TODO: проверить email]
+  email: 'easycodehub@gmail.com',
+};
+
+// Соцсети появятся в футере, как только заполните url.
+// icon — id символа из assets/icons/sprite.svg (t-github, t-telegram, t-instagram).
+export const SOCIALS = [
+  { label: 'GitHub', url: '', icon: 't-github' },     // [TODO: GitHub]
+  { label: 'Telegram', url: '', icon: 't-telegram' }, // [TODO: Telegram-канал или личка]
+  { label: 'Instagram', url: '', icon: 't-instagram' }, // [TODO: Instagram]
+];
