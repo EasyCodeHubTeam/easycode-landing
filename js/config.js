@@ -17,9 +17,13 @@ export const SITE = {
 };
 
 // Соцсети появятся в футере, как только заполните url.
-// icon — id символа из assets/icons/sprite.svg (t-github, t-telegram, t-instagram).
+// icon — id символа из assets/icons/sprite.svg (t-github, t-telegram, t-tiktok, t-instagram).
 export const SOCIALS = [
   { label: 'GitHub', url: '', icon: 't-github' },     // [TODO: GitHub]
   { label: 'Telegram @easycode_hub', url: 'https://t.me/easycode_hub', icon: 't-telegram' }, // личка для прямой связи
-  { label: 'Instagram', url: '', icon: 't-instagram' }, // [TODO: Instagram]
+  { label: 'TikTok', url: '', icon: 't-tiktok' },       // [TODO: TikTok] — например https://www.tiktok.com/@easycode_hub
+  { label: 'Instagram', url: '', icon: 't-instagram' }, // [TODO: Instagram] — например https://www.instagram.com/easycode_hub
 ];
+
+// Заполнили ссылки выше — продублируйте их в index.html в блоке application/ld+json,
+// в массиве "sameAs": по нему поисковики связывают сайт с вашими профилями.
