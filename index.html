@@ -100,6 +100,7 @@
       <nav class="nav" id="site-nav" aria-label="Основная навигация" data-i18n-attr="aria-label:ui.navLabel" data-nav>
         <ul class="nav__list">
           <li><a class="nav__link" href="#services" data-i18n="nav.services">Услуги</a></li>
+          <li><a class="nav__link" href="#pricing" data-i18n="nav.pricing">Цены</a></li>
           <li data-portfolio-only hidden><a class="nav__link" href="#portfolio" data-i18n="nav.portfolio">Работы</a></li>
           <li><a class="nav__link" href="#stack" data-i18n="nav.stack">Стек</a></li>
           <li><a class="nav__link" href="#process" data-i18n="nav.process">Процесс</a></li>
@@ -140,7 +141,7 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="container hero__grid">
         <div class="hero__content">
-          <h1 class="hero__title" id="hero-title"><span data-i18n="hero.titleBefore">Превращаем идеи в </span><span class="accent-text" data-i18n="hero.titleAccent">работающие приложения</span><span data-i18n="hero.titleAfter"></span></h1>
+          <h1 class="hero__title" id="hero-title"><span data-i18n="hero.titleBefore">Называем цену и срок </span><span class="accent-text" data-i18n="hero.titleAccent">до начала работ</span><span data-i18n="hero.titleAfter"></span></h1>
           <p class="hero__subtitle" data-i18n="hero.subtitle">Мобильные приложения на Flutter, backend на FastAPI и Telegram-боты для бизнеса и стартапов. Прозрачный процесс, оплата по этапам, код остаётся у вас.</p>
           <div class="hero__actions">
             <a class="btn btn--primary btn--lg" href="https://t.me/easycode_hub_bot?start=site_ru" target="_blank" rel="noopener" data-link="bot">
@@ -267,6 +268,74 @@
               </dl>
             </div>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Сроки и цена ============ -->
+    <section class="section section--alt" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow" data-i18n="pricing.eyebrow">Сроки и цена</p>
+          <h2 class="section__title" id="pricing-title" data-i18n="pricing.title">Сколько это стоит</h2>
+          <p class="section__lead" data-i18n="pricing.lead">Точную цену называем после брифа — письменно и до начала работ. Здесь ориентиры: от чего зависит стоимость и сколько занимает по времени.</p>
+        </header>
+
+        <div class="benefits">
+          <div class="benefit reveal">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-layers"></use></svg></span>
+            <h3 class="benefit__title" data-i18n="pricing.f1.title">Сколько экранов</h3>
+            <p class="benefit__text" data-i18n="pricing.f1.text">3 экрана и 30 экранов — это разные проекты. Считаем по экранам и сценариям, а не «за приложение целиком».</p>
+          </div>
+          <div class="benefit reveal">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-server"></use></svg></span>
+            <h3 class="benefit__title" data-i18n="pricing.f2.title">Нужен ли свой сервер</h3>
+            <p class="benefit__text" data-i18n="pricing.f2.text">Онлайн-запись, база клиентов, админка, личные кабинеты — это backend, отдельная часть работы.</p>
+          </div>
+          <div class="benefit reveal">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-wrench"></use></svg></span>
+            <h3 class="benefit__title" data-i18n="pricing.f3.title">Интеграции</h3>
+            <p class="benefit__text" data-i18n="pricing.f3.text">Оплата, карты, уведомления, учётные системы. Каждая интеграция — это время на подключение и тесты.</p>
+          </div>
+        </div>
+
+        <div class="terms reveal">
+          <h3 class="terms__title" data-i18n="pricing.termsTitle">Сроки для ориентира</h3>
+          <ul class="terms__list">
+            <li class="term">
+              <div class="term__head">
+                <span class="term__label"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-bot"></use></svg><span data-i18n="pricing.t1.label">Telegram-бот</span></span>
+                <span class="term__value" data-i18n="pricing.t1.value">от 1 недели</span>
+              </div>
+              <div class="term__track"><span class="term__fill" style="width: 18%"></span></div>
+            </li>
+            <li class="term">
+              <div class="term__head">
+                <span class="term__label"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-server"></use></svg><span data-i18n="pricing.t2.label">Backend и API</span></span>
+                <span class="term__value" data-i18n="pricing.t2.value">от 3 недель</span>
+              </div>
+              <div class="term__track"><span class="term__fill" style="width: 48%"></span></div>
+            </li>
+            <li class="term">
+              <div class="term__head">
+                <span class="term__label"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-rocket"></use></svg><span data-i18n="pricing.t3.label">MVP</span></span>
+                <span class="term__value" data-i18n="pricing.t3.value">от 4 недель</span>
+              </div>
+              <div class="term__track"><span class="term__fill" style="width: 62%"></span></div>
+            </li>
+            <li class="term">
+              <div class="term__head">
+                <span class="term__label"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-mobile"></use></svg><span data-i18n="pricing.t4.label">Мобильное приложение</span></span>
+                <span class="term__value" data-i18n="pricing.t4.value">от 6 недель</span>
+              </div>
+              <div class="term__track"><span class="term__fill" style="width: 92%"></span></div>
+            </li>
+          </ul>
+          <p class="terms__note" data-i18n="pricing.note">Оценка бесплатная. После брифа фиксируем объём, сроки и стоимость письменно. Предоплата — 30%, остальное по этапам.</p>
+          <a class="btn btn--primary" href="https://t.me/easycode_hub_bot?start=site_ru" target="_blank" rel="noopener" data-link="bot">
+            <span data-i18n="pricing.cta">Получить оценку</span>
+            <svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-arrow-right"></use></svg>
+          </a>
         </div>
       </div>
     </section>
@@ -546,6 +615,7 @@
         <h2 class="footer__title" data-i18n="footer.nav">Навигация</h2>
         <ul class="footer__links">
           <li><a href="#services" data-i18n="nav.services">Услуги</a></li>
+          <li><a href="#pricing" data-i18n="nav.pricing">Цены</a></li>
           <li data-portfolio-only hidden><a href="#portfolio" data-i18n="nav.portfolio">Работы</a></li>
           <li><a href="#process" data-i18n="nav.process">Процесс</a></li>
           <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>

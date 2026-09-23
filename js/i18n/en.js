@@ -21,6 +21,7 @@ export default {
 
   nav: {
     services: 'Services',
+    pricing: 'Pricing',
     portfolio: 'Work',
     stack: 'Stack',
     process: 'Process',
@@ -33,8 +34,8 @@ export default {
   },
 
   hero: {
-    titleBefore: 'We turn ideas into ',
-    titleAccent: 'working apps',
+    titleBefore: 'We quote the price and timeline ',
+    titleAccent: 'before the work starts',
     titleAfter: '',
     subtitle:
       'Flutter mobile apps, FastAPI backends and Telegram bots for businesses and startups. A transparent process, milestone payments, and the code is yours.',
@@ -89,6 +90,30 @@ export default {
     },
   },
 
+  pricing: {
+    eyebrow: 'Timelines and price',
+    title: 'What it costs',
+    lead: 'We quote the exact price after the brief — in writing, before any work starts. Here are the ballparks: what drives the cost and how long it takes.',
+    f1: {
+      title: 'How many screens',
+      text: '3 screens and 30 screens are different projects. We count screens and user flows, not "an app" as one lump sum.',
+    },
+    f2: {
+      title: 'Whether you need a server',
+      text: 'Online booking, a customer database, an admin panel, user accounts — that is backend, a separate piece of work.',
+    },
+    f3: {
+      title: 'Integrations',
+      text: 'Payments, maps, notifications, accounting systems. Every integration takes time to wire up and test.',
+    },
+    termsTitle: 'Timelines for reference',
+    t1: { label: 'Telegram bot', value: 'from 1 week' },
+    t2: { label: 'Backend and API', value: 'from 3 weeks' },
+    t3: { label: 'MVP', value: 'from 4 weeks' },
+    t4: { label: 'Mobile app', value: 'from 6 weeks' },
+    note: 'Estimates are free. After the brief we put scope, timeline and price in writing. 30% upfront, the rest by milestone.',
+    cta: 'Get an estimate',
+  },
   portfolio: {
     eyebrow: 'Work',
     title: 'Projects',

@@ -808,6 +808,66 @@ body.menu-open { overflow: hidden; }
 }
 .benefit__text { margin-top: var(--space-2); color: var(--text-muted); font-size: 0.9375rem; }
 
+/* ---------- Сроки и цена ---------- */
+.terms {
+  margin-top: clamp(2.5rem, 6vw, 4rem);
+  padding: clamp(1.25rem, 4vw, 2rem);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+.terms__title {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.terms__list {
+  list-style: none;
+  margin: var(--space-5) 0 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-5);
+}
+.term__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-3);
+}
+.term__label {
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  min-width: 0;          /* длинное название переносится само, срок остаётся справа */
+  font-weight: 600;
+}
+.term__label .icon { width: 20px; height: 20px; color: var(--accent-ink); }
+.term__value {
+  font-family: var(--font-mono);
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.term__track {
+  height: 10px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  overflow: hidden;
+}
+.term__fill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--accent);
+}
+.terms__note {
+  margin-top: var(--space-5);
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+}
+.terms .btn { margin-top: var(--space-5); }
+
 /* ---------- Почему мы ---------- */
 .why {
   display: grid;
